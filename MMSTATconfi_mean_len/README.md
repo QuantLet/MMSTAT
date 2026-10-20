@@ -9,11 +9,11 @@ Name of QuantLet: MMSTATconfi_mean_len
 
 Published in: MMSTAT
 
-Description: Provides an interactive interface of the confidence interval length in the cases of both known and
+Description: Provides an interactive interface of the confidence interval length in the cases of both known and unknown standard deviation. The user can choose the confidence level, sample size and standard deviation. Additionally, a line is shown which indicates the sample size needed for a specific confidence interval length.
 
-Keywords: plot, confidence interval, variance, mean, interactive, graphical representation, visualization,
+Keywords: plot, confidence interval, variance, mean, interactive, graphical representation, visualization, normal-distribution, parameter, parametric, normal
 
-See also: KI, BCS_Conf2sided, BCS_Norm3, BCS_Norm2, MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean,
+See also: KI, BCS_Conf2sided, BCS_Norm3, BCS_Norm2, MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean, MMSTATconfi_sigma, MMSTATassociation, MMSTAThelper_function, MMSTATdistribution_normal
 
 Author: Sigbert Klinke
 
@@ -28,7 +28,7 @@ Output: Interactive shiny application
 Datafile: 
 
 Example: 
-- 'Shows the confidence interval length under known and unknown standard deviation for a sample size of 100,
+- Shows the confidence interval length under known and unknown standard deviation for a sample size of 100, standard deviation = 5 and a confidence level = 95%. Interactive user choice.
 
 ```
 <div align="center">
