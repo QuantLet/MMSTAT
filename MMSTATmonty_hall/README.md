@@ -9,11 +9,11 @@ Name of QuantLet: MMSTATmonty_hall
 
 Published in: MMSTAT
 
-Description: Shows a plot of relative frequency of successful trials under
+Description: Shows a plot of relative frequency of successful trials under two scenarios of success probabilities of 1/3 and 2/3. The user can choose an option of guest points and a type of guest''s decisions.
 
-Keywords: plot, scatterplot, mean, visualization, probability,
+Keywords: plot, scatterplot, mean, visualization, probability, estimation, parameter, interactive
 
-See also: BCS_Bincdf, SFEclt, MVAcltbern, MMSTAThelper_function,
+See also: BCS_Bincdf, SFEclt, MVAcltbern, MMSTAThelper_function, MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean, MMSTATconfi_sigma, MMSTATassociation
 
 Author: Sigbert Klinke
 
@@ -28,7 +28,7 @@ Output: Interactive shiny application
 Datafiles: CARS.rds, DECATHLON.rds, USCRIME.rds
 
 Example: 
-- 'Shows a plot of relative frequency of successful trials under
+- Shows a plot of relative frequency of successful trials under 241 times of directions in the scenario of ''keep door''. It converges to 1/3, which is the success probability.
 
 ```
 <div align="center">
