@@ -9,11 +9,11 @@ Name of QuantLet: MMSTATscatterplot
 
 Published in: MMSTAT
 
-Description: Shows either a 2D or 3D scatterplot. One has also the option to compute Pearson''s correlation and
+Description: Shows either a 2D or 3D scatterplot. One has also the option to compute Pearson''s correlation and Spearman''s rank correlation for variables of the data sets CARS, DECATHLON and USCRIME.
 
-Keywords: plot, scatterplot, correlation, data visualization, visualization, estimation, parameter, interactive,
+Keywords: plot, scatterplot, correlation, data visualization, visualization, estimation, parameter, interactive, uscrime, 3D, US crime data set
 
-See also: COPcorrelation1, COPcorrelation2, COPhac4firmsscatter, SFE5dim, MMSTATtime_series_1, MMSTATlinreg,
+See also: COPcorrelation1, COPcorrelation2, COPhac4firmsscatter, SFE5dim, MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean, MMSTATconfi_sigma, MMSTATassociation, MMSTAThelper_function
 
 Author: Sigbert Klinke
 
