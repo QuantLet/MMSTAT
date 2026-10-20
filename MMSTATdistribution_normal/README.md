@@ -9,11 +9,11 @@ Name of QuantLet: MMSTATdistribution_normal
 
 Published in: MMSTAT
 
-Description: Shows the pdf and the cdf of the normal distribution. Mean and variance can be changed interactively.
+Description: Shows the pdf and the cdf of the normal distribution. Mean and variance can be changed interactively. The user can also plot the exponential distribution with adjustable parameter lambda.
 
-Keywords: distribution, plot, cdf, pdf, exponential, visualization, parameter, interactive, parametric, normal,
+Keywords: distribution, plot, cdf, pdf, exponential, visualization, parameter, interactive, parametric, normal, normal-distribution, mean, variance, density
 
-See also: norm, SFEDaxReturnDistribution, norm2, MSEedfnormal, MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean,
+See also: norm, SFEDaxReturnDistribution, norm2, MSEedfnormal, MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean, MMSTATconfi_sigma, MMSTATassociation, MMSTAThelper_function, MMSTATdistribution_exponential
 
 Author: Sigbert Klinke
 
@@ -28,7 +28,7 @@ Output: Interactive shiny application
 Datafiles: 
 
 Example: 
-- 'Shows the density function of the normal distribution with mean = 0 and variance = 1.
+- Shows the density function of the normal distribution with mean = 0 and variance = 1.
 
 ```
 <div align="center">
