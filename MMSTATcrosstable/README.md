@@ -9,19 +9,17 @@ Name of QuantLet: MMSTATcrosstable
 
 Published in: MMSTAT
 
-Description: Computes a contingency table. Additionally, four different
+Description: Computes a contingency table. Additionally, four different correlation measures can be given: Chi-square, contingency  correlation, corrected contingency correlation and Cramer''s V. The user can interactively choose between variables of the data sets TITANIC and HAIR.EYE.COLOR.
 
-correlation measures can be given: Chi-square, contingency  correlation,
+Keywords: contingency table, correlation, Chisquare, chi-square test discrete,  parameter, interactive, parametric
 
-Keywords: contingency table, correlation, Chisquare, chi-square test
-
-See also: MVAcorrEyeHair, MVAcorrCar, MSECramervonMisestest,
+See also: MVAcorrEyeHair, MVAcorrCar, MSECramervonMisestest, MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean,  MMSTATconfi_sigma, MMSTATassociation, MMSTAThelper_function
 
 Author: Sigbert Klinke
 
 Code Editor: Yafei Xu
 
-Submitted: 
+Submitted: 24.11.2015
 
 Input: MMSTAThelper_function
 
@@ -30,7 +28,7 @@ Output: Interactive shiny application
 Datafiles: CARS.rds, DECATHLON.rds, USCRIME.rds
 
 Example: 
-- 'Shows the contingency table and coefficients for the variables COLOR.HAIR
+- Shows the contingency table and coefficients for the variables COLOR.HAIR and COLOR.EYE of the data set HAIR.EYE.COLOR.
 
 ```
 <div align="center">
