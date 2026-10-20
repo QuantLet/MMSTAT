@@ -9,17 +9,17 @@ Name of QuantLet: MMSTATdistribution_exponential
 
 Published in: MMSTAT
 
-Description: Shows the pdf and cdf of the exponential distribution. The parameter lambda can be chosen by the user.
+Description: Shows the pdf and cdf of the exponential distribution. The parameter lambda can be chosen by the user. One can also interactively plot the normal distribution with exchangeable mean and variance.
 
-Keywords: distribution, plot, cdf, pdf, exponential, visualization, parameter, interactive, parametric,
+Keywords: distribution, plot, cdf, pdf, exponential, visualization, parameter, interactive, parametric, normal, normal-distribution, mean, variance, density
 
-See also: BCS_Hist1, BCS_Hist2, BCS_Binpdf, BCS_Binompdf,
+See also: BCS_Hist1, BCS_Hist2, BCS_Binpdf, BCS_Binompdf, MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean, MMSTATconfi_sigma, MMSTATassociation, MMSTAThelper_function
 
 Author: Sigbert Klinke
 
 Code Editor: Yafei Xu
 
-Submitted: 
+Submitted: 24.11.2015
 
 Input: MMSTAThelper_function
 
@@ -28,7 +28,7 @@ Output: Interactive shiny application
 Datafiles: 
 
 Example: 
-- 'Shows the density of the exponential distribution with lambda = 1.
+- Shows the density of the exponential distribution with lambda = 1.
 
 ```
 <div align="center">
