@@ -9,11 +9,11 @@ Name of QuantLet: MMSTATdotplot_location
 
 Published in: MMSTAT
 
-Description: Shows the one dimensional dotplot in a choosable type (overplot, jitter, stack).
+Description: Shows the one dimensional dotplot in a choosable type (overplot, jitter, stack). One can add the mean and the median to show the location parameters of one dimensional data as vertical lines. The user can choose between variables of the CARS and USCRIME data sets.
 
-Keywords: mean, median, plot, scatterplot, quantile, visualization,
+Keywords: mean, median, plot, scatterplot, quantile, visualization, data visualization, parameter, interactive, parametric, uscrime
 
-See also: MVAbluepullover, BCS_Boxplot, BCS_Boxplot2, MVAclususcrime
+See also: MVAbluepullover, BCS_Boxplot, BCS_Boxplot2, MVAclususcrime MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean, MMSTATconfi_sigma, MMSTATassociation, MMSTAThelper_function
 
 Author: Sigbert Klinke
 
@@ -28,7 +28,7 @@ Output: Interactive shiny application
 Datafiles: CARS.rds, USCRIME.rds
 
 Example: 
-- 'Shows the dotplot of the variable POPULATION of the
+- Shows the dotplot of the variable POPULATION of the data set USCRIME.
 
 ```
 <div align="center">
