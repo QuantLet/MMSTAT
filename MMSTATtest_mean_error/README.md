@@ -9,11 +9,11 @@ Name of QuantLet: MMSTATtest_mean_error
 
 Published in: MMSTAT
 
-Description: Shows an interactive interface to show the areas of type 1 and type 2
+Description: Shows an interactive interface to show the areas of type 1 and type 2 errors in a t test. The user can interactively choose the test type (two sided, less or greater), the hypothetical mean, the significance level and the sample size. Also, a table with summary statistics regarding the sample, population and the test is given. The sample can be drawn for variables of the data sets BOSTON HOUSING and USCRIME.
 
-Keywords: test, error, mean, quantile, t-distribution, data visualization,
+Keywords: test, error, mean, quantile, t-distribution, data visualization, parameter, interactive, uscrime, Hypothesis Testing, sampling, estimation, population, variance, standard deviation
 
-See also: SMStestuscomp, hotellingstat, norm, MMSTATtime_series_1,
+See also: SMStestuscomp, hotellingstat, norm, MMSTATtime_series_1, MMSTATlinreg, MMSTATconfmean, MMSTATconfi_sigma, MMSTATassociation, MMSTAThelper_function
 
 Author: Sigbert Klinke
 
@@ -27,7 +27,7 @@ Output: Interactive shiny application
 
 Datafiles: BOSTONHOUSING.rds, USCRIME.rds
 
-Example: Shows the t test with hypothetical mean mu = 3.769, significance level alpha = 5
+Example: Shows the t test with hypothetical mean mu = 3.769, significance level alpha = 5 and sample size n = 45. The variable POPULATION of the USCRIME data set is selected.
 
 ```
 <div align="center">
